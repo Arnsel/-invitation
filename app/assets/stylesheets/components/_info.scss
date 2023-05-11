@@ -1,0 +1,60 @@
+.info {
+  position: absolute;
+  width: 1440px;
+  height: 528px;
+  left: calc(50% - 1440px/2);
+  top: 937px;
+
+  background: $rosa;
+
+}
+
+.info > .tekst {
+  width: 902px;
+  height: 210px;
+
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 35px;
+  /* or 159% */
+
+  text-align: center;
+
+  /* Style */
+
+  color: #361A06;
+
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.info > .italic {
+  width: 835px;
+  height: 35px;
+
+  font-family: 'The Californication';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 34px;
+  line-height: 35px;
+  /* identical to box height, or 103% */
+
+  text-align: center;
+
+  /* Style */
+
+  color: #361A06;
+
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
