@@ -1,0 +1,33 @@
+.dresscode {
+  width: 720px;
+  height: 570px;
+  left: calc(50% - 720px/2 + 360px);
+  top: 0px;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  /* #F1EAB8 */
+
+  background: #F1EAB8;
+}
+
+.dresscode > .tekst {
+  width: 500px;
+  height: 162px;
+  left: calc(50% - 500px/2 - 360px);
+  top: 359.22px;
+
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 33px;
+  text-align: center;
+
+  /* Style */
+
+  color: #361A06;
+
+}

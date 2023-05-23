@@ -3,4 +3,41 @@
 
 .home {
   color: #DA591B;
-  };
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+};
+
+.h1 {
+  position: absolute;
+  width: 1053px;
+  height: 125px;
+  left: calc(50% - 1053px/2 + 0.5px);
+  top: 186px;
+
+  font-family: 'Gunter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 104px;
+  line-height: 125px;
+  /* identical to box height */
+
+  text-align: center;
+
+}
+
+.h3 {
+  height: 67px;
+  left: calc(50% - 480px/2);
+  top: 343px;
+
+  font-family: 'The Californication';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 67px;
+  line-height: 600px;
+  /* identical to box height */
+
+  text-align: center;
+
+}

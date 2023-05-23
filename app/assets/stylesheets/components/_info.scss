@@ -1,18 +1,20 @@
 .info {
-  position: absolute;
   width: 1440px;
   height: 528px;
-  left: calc(50% - 1440px/2);
   top: 937px;
 
   background: $rosa;
-
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .info > .tekst {
   width: 902px;
   height: 210px;
-
+  left: calc(50% - 480px/2);
   font-family: 'Poppins';
   font-style: normal;
   font-weight: 400;

@@ -1,0 +1,21 @@
+.tilmeld {
+  box-sizing: border-box;
+
+  /* Auto layout */
+
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 16px 24px;
+  gap: 10px;
+  width: 129px;
+  height: 56px;
+  left: 1235px;
+  top: 32px;
+
+  /* #DA591B */
+
+  border: 1px solid #DA591B;
+  border-radius: 25px;
+  }
