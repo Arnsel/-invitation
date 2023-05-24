@@ -14,3 +14,19 @@ $headers-font: "Nunito", "Helvetica", "sans-serif";
 //        font-url('FontFile.ttf') format('truetype')
 // }
 // $my-font: "Font Name";
+
+
+@font-face {
+  font-family: 'Gunter';
+  src: font-url('Gunter-Regular.eot');
+  src: local('Gunter Regular'), local('Gunter-Regular'),
+    font-url('Gunter-Regular.eot?#iefix') format('embedded-opentype'),
+    font-url('Gunter-Regular.woff2') format('woff2'),
+    font-url('Gunter-Regular.woff') format('woff'),
+    font-url('Gunter-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+$gunter: "Gunter";
