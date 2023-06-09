@@ -1,7 +1,6 @@
 .info {
   width: 100%;
   height: 528px;
-  top: 937px;
 
   background: $rosa;
   text-align: center;
@@ -12,14 +11,13 @@
 }
 
 .info > .tekst {
-  width: 902px;
-  height: 210px;
-  left: calc(50% - 480px/2);
   font-family: 'Poppins';
   font-style: normal;
   font-weight: 400;
   font-size: 22px;
   line-height: 35px;
+  margin-bottom: 5lvh;
+  width: 60lvw;
   /* or 159% */
 
   text-align: center;
