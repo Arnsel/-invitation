@@ -17,7 +17,6 @@
   font-size: 22px;
   line-height: 35px;
   margin-bottom: 5lvh;
-  width: 60lvw;
   /* or 159% */
 
   text-align: center;
@@ -34,8 +33,20 @@
   flex-grow: 0;
 }
 
+@media(max-width: 500000px) {
+  .info > .tekst {
+    width: 15lvw;
+  }
+}
+
+@media(max-width: 768px) {
+  .info > .tekst {
+    width: 75lvw;
+  }
+}
+
+
 .info > .italic {
-  width: 835px;
   height: 35px;
 
   font-family: 'The Californication';

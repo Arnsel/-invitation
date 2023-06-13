@@ -1,8 +1,6 @@
 .vielsen {
-  width: 100lvh;
+  width: 100%;
   height: 642px;
-  left: calc(50% - 720px/2 - 360px);
-  top: 0px;
   justify-content: center;
   display: flex;
   flex-direction: column;
@@ -26,4 +24,17 @@
 
   color: #361A06;
 
+}
+
+
+@media(max-width: 500000px) {
+  .vielsen > .tekst {
+    width: 15lvw;
+  }
+}
+
+@media(max-width: 768px) {
+  .vielsen > .tekst {
+    width: 75lvw;
+  }
 }

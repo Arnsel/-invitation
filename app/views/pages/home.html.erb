@@ -6,9 +6,6 @@
       <%= link_to "Ønskeliste", liste_path %>
     </div>
 
-    <div class="tilmeld">
-      Ser vi dig?
-    </div>
 
     <div class="wrapper">
       <div class="h1">
@@ -20,7 +17,7 @@
       </div>
 
 
-      <div id="carousel" class="carousel slide" data-bs-ride="carousel" style="height: 344px; width: 548px; margin-top: 10%; margin-bottom: 10%;">
+      <div id="carousel" class="carousel slide" data-bs-ride="carousel" style="height: 344px; margin-top: 10%; margin-bottom: 10%;">
         <div class="carousel-inner">
           <div class="carousel-item active">
             <img src="https://res.cloudinary.com/dfzylc7wo/image/upload/v1685783398/Bryllup/Signe_Andreas_1_mekwo3.png" class="d-block w-100" alt="...">
@@ -78,6 +75,12 @@
           <span class="visually-hidden">Next</span>
         </button>
       </div>
+
+           <!-- Button trigger modal -->
+      <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop" style="background: #DA591B; border-color: #DA591B;">
+        Ser vi dig?
+      </button>
+
     </div>
 
   </div>
@@ -92,52 +95,56 @@
     </div>
   </div>
 
-  <div class="box-1">
+  <div class="container" style="max-width: 100lvw; margin: 0; padding: 0;">
 
-    <div class="vielsen">
-      <h2>Vielsen</h2>
-      <div class="italic">
-      Kl. 13:00
-      Københavns Rådhus
+    <div class="row" style="width: 100lvw; margin-left: 0;">
+
+      <div class="vielsen col-12 col-md-6">
+        <h2>Vielsen</h2>
+        <div class="italic">
+        Kl. 13:00
+        Københavns Rådhus
+        </div>
+        <div class="tekst">
+        I er velkomne til at være med når vi bliver viet på Københavns rådhus. Vi vil efterfølgende skåle i deres tilhørende gårdhave, inden vi fortsætter fejringen ud til Roklubben.
+        </div>
       </div>
-      <div class="tekst">
-      I er velkomne til at være med når vi bliver viet på Københavns rådhus. Vi vil efterfølgende skåle i deres tilhørende gårdhave, inden vi fortsætter fejringen ud til Roklubben.
+
+      <div class="festen col-12 col-md-6">
+        <h2>Festen</h2>
+        <div class="italic">
+        Kl. 15:00
+        Bryggens Roklub
+        </div>
+        <div class="tekst">
+        Aftenens festligheder med reception, middag og dansegulv vil foregå i Bryggens roklub på adressen: Rundholtsvej 95, 2300 Kbh
+        </div>
       </div>
+
     </div>
 
-    <div class="festen">
-      <h2>Festen</h2>
-      <div class="italic">
-      Kl. 15:00
-      Bryggens Roklub
-      </div>
-      <div class="tekst">
-      Aftenens festligheder med reception, middag og dansegulv vil foregå i Bryggens roklub på adressen: Rundholtsvej 95, 2300 Kbh
-      </div>
-    </div>
+    <div class="row" style="width: 100lvw; margin-left: 0;">
 
-  </div>
+      <div class="indslag col-12 col-md-6">
+        <h2>Indslag</h2>
+        <div class="italic">
+          Indslag er velkomne
+        </div>
+        <div class="tekst">
+          Hvis I har indslag, kan I koordinere med vores søde toastmaster, Aske på tlf xx xx xx xx
+        </div>
+      </div>
 
-  <div class="box-2">
+      <div class="dresscode col-12 col-md-6">
+        <h2>Dresscode</h2>
+        <div class="italic">
+          Det er havefest, men dress to impress!
+        </div>
+        <div class="tekst">
+          Ps. Medbring evt. badetøj og et håndklæde da der er mulighed for en dukkert og en tur i sauna.
+        </div>
+      </div>
 
-    <div class="indslag">
-      <h2>Indslag</h2>
-      <div class="italic">
-        Indslag er velkomne
-      </div>
-      <div class="tekst">
-        Hvis I har indslag, kan I koordinere med vores søde toastmaster, Aske på tlf xx xx xx xx
-      </div>
-    </div>
-
-    <div class="dresscode">
-      <h2>Dresscode</h2>
-      <div class="italic">
-        Det er havefest, men dress to impress!
-      </div>
-      <div class="tekst">
-        Ps. Medbring evt. badetøj og et håndklæde da der er mulighed for en dukkert og en tur i sauna.
-      </div>
     </div>
 
   </div>
@@ -150,6 +157,30 @@
 
     <div class="h2">
     Vi glæder os til at fejre vores store dag med dig!
+    </div>
+
+        <!-- Button trigger modal -->
+    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop" style="background: #DA591B; border-color: #DA591B;">
+      Besvar Invitationen
+    </button>
+
+    <!-- Modal -->
+    <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="staticBackdropLabel">Modal title</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            ...
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Tilbage</button>
+            <button type="button" class="btn btn-primary" style="background: #DA591B; border-color: #DA591B;">Tilmeld</button>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 

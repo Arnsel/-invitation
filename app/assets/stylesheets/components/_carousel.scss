@@ -1,19 +1,15 @@
-.main {
-  background-color: $gul;
-  width: 100lvw;
-  top: 0px;
-}
+#carousel {
 
   @media(max-width: 500000px) {
-    .main #carousel {
+    .info > .tekst {
       width: 548px;
     }
   }
 
   @media(max-width: 768px) {
-    .main #carousel {
+    .info > .tekst {
       width: 100lvw;
     }
   }
 
-
+}
