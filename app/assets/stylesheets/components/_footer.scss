@@ -12,6 +12,10 @@
   align-items: center;
 }
 
+.footer h2 {
+  margin-bottom: 4lvh;
+}
+
 
 @media(max-width: 500000px) {
   .footer > h2 {
@@ -28,5 +32,35 @@
 @media(max-width: 768px) {
   .footer > h2 {
     width: 75lvw;
+  }
+}
+
+
+.footer .italic {
+  font-family: 'The Californication';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 34px;
+  line-height: 45px;
+
+  margin-bottom: 1lvh;
+}
+
+
+@media(max-width: 500000px) {
+  .footer .italic {
+    font-size: 40px !important;
+  }
+}
+
+@media(max-width: 1600px) {
+  .footer .italic {
+    font-size: 35px !important;
+  }
+}
+
+@media(max-width: 768px) {
+  .footer .italic {
+    font-size: 30px !important;
   }
 }

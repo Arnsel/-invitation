@@ -11,10 +11,8 @@
 }
 
 .info > .tekst {
-  font-family: 'Poppins';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 22px;
+  font-family: 'Plus Jakarta Sans';
+  font-size: 20px;
   line-height: 35px;
   margin-bottom: 5lvh;
   /* or 159% */
@@ -23,14 +21,7 @@
 
   /* Style */
 
-  color: #361A06;
-
-
-  /* Inside auto layout */
-
-  flex: none;
-  order: 0;
-  flex-grow: 0;
+  color: #DA591B;
 }
 
 @media(max-width: 500000px) {

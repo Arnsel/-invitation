@@ -5,6 +5,8 @@
   font-weight: 400;
   font-size: 45px;
   line-height: 60px;
+
+  margin-bottom: 1lvh;
 }
 
 .container .italic {
@@ -14,7 +16,7 @@
   font-size: 34px;
   line-height: 45px;
 
-
+  color: #361A06 !important;
 }
 
 
@@ -33,5 +35,38 @@
 @media(max-width: 768px) {
   .container .italic {
     font-size: 30px !important;
+  }
+}
+
+.container .tekst {
+  font-family: 'Plus Jakarta Sans';
+  font-size: 20px;
+  line-height: 35px;
+  margin-bottom: 5lvh;
+  /* or 159% */
+
+  text-align: center;
+
+  /* Style */
+  margin-top: 1lvh;
+  color: #361A06 !important;
+}
+
+
+@media(max-width: 500000px) {
+  .container .tekst {
+    width: 25lvw;
+  }
+}
+
+@media(max-width: 1600px) {
+  .container .tekst {
+    width: 35lvw;
+  }
+}
+
+@media(max-width: 768px) {
+  .container .tekst {
+    width: 75lvw;
   }
 }

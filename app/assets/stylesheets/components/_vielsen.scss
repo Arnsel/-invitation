@@ -10,37 +10,3 @@
 
   background: #C6C95C;
 }
-
-.vielsen > .tekst {
-
-  font-family: 'Poppins';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 22px;
-  line-height: 33px;
-  text-align: center;
-
-  /* Style */
-
-  color: #361A06;
-
-}
-
-
-@media(max-width: 500000px) {
-  .vielsen > .tekst {
-    width: 15lvw;
-  }
-}
-
-@media(max-width: 1600px) {
-  .vielsen > .tekst {
-    width: 35lvw;
-  }
-}
-
-@media(max-width: 768px) {
-  .vielsen > .tekst {
-    width: 75lvw;
-  }
-}
