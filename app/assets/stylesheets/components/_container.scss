@@ -1,0 +1,37 @@
+.container h2 {
+
+  font-family: 'Gunter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 45px;
+  line-height: 60px;
+}
+
+.container .italic {
+  font-family: 'The Californication';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 34px;
+  line-height: 45px;
+
+
+}
+
+
+@media(max-width: 500000px) {
+  .container .italic {
+    font-size: 40px !important;
+  }
+}
+
+@media(max-width: 1600px) {
+  .container .italic {
+    font-size: 35px !important;
+  }
+}
+
+@media(max-width: 768px) {
+  .container .italic {
+    font-size: 30px !important;
+  }
+}

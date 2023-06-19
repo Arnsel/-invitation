@@ -33,6 +33,12 @@
   }
 }
 
+@media(max-width: 1600px) {
+  .vielsen > .tekst {
+    width: 35lvw;
+  }
+}
+
 @media(max-width: 768px) {
   .vielsen > .tekst {
     width: 75lvw;

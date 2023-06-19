@@ -37,6 +37,12 @@
   }
 }
 
+@media(max-width: 1600px) {
+  .dresscode > .tekst {
+    width: 35lvw;
+  }
+}
+
 @media(max-width: 768px) {
   .dresscode > .tekst {
     width: 75lvw;

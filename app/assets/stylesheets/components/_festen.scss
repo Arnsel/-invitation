@@ -38,6 +38,12 @@
   }
 }
 
+@media(max-width: 1600px) {
+  .festen > .tekst {
+    width: 35lvw;
+  }
+}
+
 @media(max-width: 768px) {
   .festen > .tekst {
     width: 75lvw;

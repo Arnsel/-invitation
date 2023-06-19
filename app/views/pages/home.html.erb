@@ -2,8 +2,8 @@
   <div class="main">
 
     <div class="header">
-      <%= link_to "Bryllup", root_path %>
-      <%= link_to "Ønskeliste", liste_path %>
+      <%= link_to "BRYLLUP", root_path %>
+      <%= link_to "ØNSKELISTE", liste_path %>
     </div>
 
 
@@ -17,7 +17,7 @@
       </div>
 
 
-      <div id="carousel" class="carousel slide" data-bs-ride="carousel" style="height: 344px; margin-top: 10%; margin-bottom: 10%;">
+      <div id="carousel" class="carousel slide" data-bs-ride="carousel" style="height: 344px; margin-top: 6lvh; margin-bottom: 6lvh;">
         <div class="carousel-inner">
           <div class="carousel-item active">
             <img src="https://res.cloudinary.com/dfzylc7wo/image/upload/v1685783398/Bryllup/Signe_Andreas_1_mekwo3.png" class="d-block w-100" alt="...">
@@ -77,7 +77,7 @@
       </div>
 
            <!-- Button trigger modal -->
-      <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop" style="background: #DA591B; border-color: #DA591B;">
+      <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop" style="background: #DA591B; border-color: #DA591B; margin-bottom: 6lvh;">
         Ser vi dig?
       </button>
 
@@ -103,6 +103,8 @@
         <h2>Vielsen</h2>
         <div class="italic">
         Kl. 13:00
+        </div>
+        <div class="italic">
         Københavns Rådhus
         </div>
         <div class="tekst">
@@ -114,6 +116,8 @@
         <h2>Festen</h2>
         <div class="italic">
         Kl. 15:00
+        </div>
+        <div class="italic">
         Bryggens Roklub
         </div>
         <div class="tekst">
@@ -131,7 +135,7 @@
           Indslag er velkomne
         </div>
         <div class="tekst">
-          Hvis I har indslag, kan I koordinere med vores søde toastmaster, Aske på tlf xx xx xx xx
+          Hvis I har indslag, kan I koordinere med vores søde toastmaster, Daniel på tlf 26 24 85 46
         </div>
       </div>
 
@@ -156,34 +160,69 @@
     </div>
 
     <div class="h2">
-    Vi glæder os til at fejre vores store dag med dig!
+      Vi glæder os til at fejre vores store dag med dig!
     </div>
 
+
         <!-- Button trigger modal -->
-    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop" style="background: #DA591B; border-color: #DA591B;">
-      Besvar Invitationen
-    </button>
+    <div>
+      <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop" style="background: #DA591B; border-color: #DA591B;">
+        Besvar Invitationen
+      </button>
+    </div>
 
     <!-- Modal -->
     <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
       <div class="modal-dialog">
         <div class="modal-content">
           <div class="modal-header">
-            <h1 class="modal-title fs-5" id="staticBackdropLabel">Modal title</h1>
+            <h1 class="modal-title fs-5" id="staticBackdropLabel">Tilmelding til Andreas' og Signes bryllup</h1>
             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
           </div>
-          <div class="modal-body">
-            ...
-          </div>
-          <div class="modal-footer">
-            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Tilbage</button>
-            <button type="button" class="btn btn-primary" style="background: #DA591B; border-color: #DA591B;">Tilmeld</button>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
 
+
+          <div class="modal-body">
+              <!-- Form -->
+              <form action="https://formsubmit.co/3c92646439654799c58fa8ee4b614e37" method="POST">
+                <!-- Honeypot -->
+                <input type="text" name="_honey" style="display: none;">
+
+                <!-- Disable Captcha -->
+                <input type="hidden" name="_captcha" value="false">
+
+                <input type= "hidden" name="_next" value="http://[::1]:3000/liste">
+
+                <div class="mb-3">
+                  <label for="navn" class="form-label">Dit navn</label>
+                  <input type="text" class="form-control" id="navn" name="navn" required>
+                </div>
+
+                <div class="mb-3">
+                  <label for="partner" class="form-label">Navn på din +1</label>
+                  <input type="text" class="form-control" id="partner" name="partner">
+                </div>
+
+                <div class="mb-3">
+                  <label for="bemærkninger" class="form-label">Bemærkninger</label>
+                  <textarea class="form-control" id="bemærkninger" name="bemærkninger" rows="4"></textarea>
+                </div>
+
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Tilbage</button>
+                  <button type="submit" class="btn btn-primary" style="background: #DA591B; border-color: #DA591B;">Tilmeld</button>
+                </div>
+
+              </form>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
 
 
 </div>

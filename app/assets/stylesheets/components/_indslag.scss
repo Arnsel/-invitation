@@ -35,6 +35,12 @@
   }
 }
 
+@media(max-width: 1600px) {
+  .indslag > .tekst {
+    width: 35lvw;
+  }
+}
+
 @media(max-width: 768px) {
   .indslag > .tekst {
     width: 75lvw;

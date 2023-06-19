@@ -35,7 +35,13 @@
 
 @media(max-width: 500000px) {
   .info > .tekst {
-    width: 15lvw;
+    width: 25lvw;
+  }
+}
+
+@media(max-width: 1600px) {
+  .info > .tekst {
+    width: 45lvw;
   }
 }
 

@@ -12,6 +12,36 @@
   font-family: 'Gunter';
   font-style: normal;
   font-weight: 400;
+  line-height: 125px;
+  /* identical to box height */
+
+  text-align: center;
+
+}
+
+@media(max-width: 500000px) {
+  .h1 {
+    font-size: 104px !important;
+  }
+}
+
+@media(max-width: 1600px) {
+  .h1 {
+    font-size: 95px !important;
+  }
+}
+
+@media(max-width: 768px) {
+  .h1 {
+    font-size: 70px !important;
+  }
+}
+
+
+.h2 {
+  font-family: 'Gunter';
+  font-style: normal;
+  font-weight: 400;
   font-size: 104px;
   line-height: 125px;
   /* identical to box height */
@@ -30,4 +60,42 @@
 
   text-align: center;
 
+}
+
+@media(max-width: 500000px) {
+  .h3 {
+    font-size: 50px !important;
+  }
+}
+
+@media(max-width: 1600px) {
+  .h3 {
+    font-size: 40px !important;
+  }
+}
+
+@media(max-width: 768px) {
+  .h3 {
+    font-size: 30px !important;
+  }
+}
+
+a:link {
+  text-decoration: none;
+  color: #DA591B;
+}
+
+a:visited {
+  text-decoration: none;
+  color: #DA591B;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #DA591B;
+}
+
+a:active {
+  text-decoration: none;
+  color: #DA591B;
 }
