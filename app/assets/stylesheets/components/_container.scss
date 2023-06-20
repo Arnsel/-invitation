@@ -40,7 +40,6 @@
 
 .container .tekst {
   font-family: 'Plus Jakarta Sans';
-  font-size: 20px;
   line-height: 35px;
   margin-bottom: 5lvh;
   /* or 159% */
@@ -56,17 +55,20 @@
 @media(max-width: 500000px) {
   .container .tekst {
     width: 25lvw;
+    font-size: 20px;
   }
 }
 
 @media(max-width: 1600px) {
   .container .tekst {
     width: 35lvw;
+    font-size: 19px;
   }
 }
 
 @media(max-width: 768px) {
   .container .tekst {
     width: 75lvw;
+    font-size: 18px;
   }
 }

@@ -4,4 +4,7 @@ class PagesController < ApplicationController
 
   def liste
   end
+
+  def succes
+  end
 end

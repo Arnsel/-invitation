@@ -8,6 +8,58 @@
 
 }
 
-.bryllup > .h3 {
-  line-height: 72px;
+@media(max-width: 500000px) {
+  .bryllup .h1 {
+    font-size: 85px !important;
+  }
+}
+
+@media(max-width: 1600px) {
+  .bryllup .h1 {
+    font-size: 65px !important;
+  }
+}
+
+@media(max-width: 768px) {
+  .bryllup .h1 {
+    font-size: 45px !important;
+  }
+}
+
+.bryllup .h1 {
+  margin-bottom: 4lvh;
+}
+
+
+.bryllup .tekst {
+  font-family: 'Plus Jakarta Sans';
+  line-height: 35px;
+  margin-bottom: 5lvh;
+  /* or 159% */
+
+  text-align: center;
+
+  color: #361A06 !important;
+}
+
+
+@media(max-width: 500000px) {
+  .bryllup .tekst {
+    width: 25lvw;
+    font-size: 20px;
+  }
+}
+
+@media(max-width: 1600px) {
+  .bryllup .tekst {
+    width: 35lvw;
+    font-size: 19px;
+  }
+}
+
+@media(max-width: 768px) {
+  .bryllup .tekst {
+    width: 75lvw;
+    font-size: 18px;
+  }
 }

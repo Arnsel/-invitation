@@ -2,13 +2,13 @@
 
   <div class="bryllup">
     <div class="header">
-      <%= link_to "Bryllup", root_path %>
-      <%= link_to "Ønskeliste", liste_path %>
+      <%= link_to "BRYLLUP", root_path %>
+      <%= link_to "ØNSKELISTE", liste_path %>
     </div>
 
     <div class="wrapper">
-      <div class="h3">
-        Din tilstedeværelse er nok!
+      <div class="h1">
+        Din deltagelse i vores bryllup betyder alt for os!
       </div>
 
       <div class="tekst">
@@ -19,7 +19,7 @@
   </div>
 
   <div class="ønsker">
-    <div class="italic">
+    <div class="h2">
       Ønsker til inspiration
     </div>
 
@@ -41,12 +41,76 @@
 
   </div>
 
-  <div class="footer">
-    <div class="italic">
-      02. september 2023 Bryggens Roklub
-    </div>
-    <h2>Vi glæder os til at fejre vores store dag med dig!</h2>
-  </div>
 
+  <div class="footer">
+
+    <div class="italic">
+      02. september 2023 | Bryggens Roklub
+    </div>
+
+    <div class="h2">
+      Vi glæder os til at fejre vores store dag med dig!
+    </div>
+
+
+        <!-- Button trigger modal -->
+    <div>
+      <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop" style="background: #DA591B; border-color: #DA591B;">
+        Besvar Invitationen
+      </button>
+    </div>
+
+    <!-- Modal -->
+    <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="staticBackdropLabel">Tilmelding til Andreas' og Signes bryllup</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+
+
+          <div class="modal-body">
+              <!-- Form -->
+              <form action="https://formsubmit.co/3c92646439654799c58fa8ee4b614e37" method="POST">
+                <!-- Honeypot -->
+                <input type="text" name="_honey" style="display: none;">
+
+                <!-- Disable Captcha -->
+                <input type="hidden" name="_captcha" value="false">
+
+                <input type= "hidden" name="_next" value="http://[::1]:3000/succes">
+
+                <div class="mb-3">
+                  <label for="navn" class="form-label">Dit navn</label>
+                  <input type="text" class="form-control" id="navn" name="navn" required>
+                </div>
+
+                <div class="mb-3">
+                  <label for="partner" class="form-label">Navn på din +1</label>
+                  <input type="text" class="form-control" id="partner" name="partner">
+                </div>
+
+                <div class="mb-3">
+                  <label for="bemærkninger" class="form-label">Bemærkninger</label>
+                  <textarea class="form-control" id="bemærkninger" name="bemærkninger" rows="4"></textarea>
+                </div>
+
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Tilbage</button>
+                  <button type="submit" class="btn btn-primary" style="background: #DA591B; border-color: #DA591B;">Tilmeld</button>
+                </div>
+
+              </form>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
 
 </div>
