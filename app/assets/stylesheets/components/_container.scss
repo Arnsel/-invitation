@@ -3,7 +3,7 @@
   font-family: 'Gunter';
   font-style: normal;
   font-weight: 400;
-  font-size: 45px;
+  font-size: 40px;
   line-height: 60px;
 
   margin-bottom: 1lvh;
@@ -14,7 +14,7 @@
   font-style: normal;
   font-weight: 400;
   font-size: 34px;
-  line-height: 45px;
+  line-height: 35px;
 
   color: #361A06 !important;
 }
@@ -28,13 +28,13 @@
 
 @media(max-width: 1600px) {
   .container .italic {
-    font-size: 35px !important;
+    font-size: 30px !important;
   }
 }
 
 @media(max-width: 768px) {
   .container .italic {
-    font-size: 30px !important;
+    font-size: 20px !important;
   }
 }
 
@@ -69,6 +69,6 @@
 @media(max-width: 768px) {
   .container .tekst {
     width: 75lvw;
-    font-size: 18px;
+    font-size: 16px;
   }
 }

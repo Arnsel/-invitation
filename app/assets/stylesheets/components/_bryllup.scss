@@ -1,6 +1,6 @@
 .bryllup {
   width: 100lvw;
-  height: 635px;
+  height: 720px;
   top: 0px;
   /* #C6C95C */
 
@@ -22,12 +22,13 @@
 
 @media(max-width: 768px) {
   .bryllup .h1 {
-    font-size: 45px !important;
+    font-size: 37px !important;
   }
 }
 
 .bryllup .h1 {
   margin-bottom: 4lvh;
+  width: 70lvw;
 }
 
 
@@ -60,6 +61,6 @@
 @media(max-width: 768px) {
   .bryllup .tekst {
     width: 75lvw;
-    font-size: 18px;
+    font-size: 16px;
   }
 }
