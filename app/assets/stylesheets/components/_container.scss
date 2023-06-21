@@ -9,7 +9,7 @@
   margin-bottom: 1lvh;
 }
 
-.container .italic {
+.container .h3 {
   font-family: 'The Californication';
   font-style: normal;
   font-weight: 400;
@@ -21,19 +21,19 @@
 
 
 @media(max-width: 500000px) {
-  .container .italic {
+  .container .h3 {
     font-size: 40px !important;
   }
 }
 
 @media(max-width: 1600px) {
-  .container .italic {
+  .container .h3 {
     font-size: 30px !important;
   }
 }
 
 @media(max-width: 768px) {
-  .container .italic {
+  .container .h3 {
     font-size: 20px !important;
   }
 }

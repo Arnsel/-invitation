@@ -35,7 +35,7 @@
 }
 
 
-.footer .italic {
+.footer .h3 {
   font-family: 'The Californication';
   font-style: normal;
   font-weight: 400;
@@ -47,19 +47,19 @@
 
 
 @media(max-width: 500000px) {
-  .footer .italic {
+  .footer .h3 {
     font-size: 40px !important;
   }
 }
 
 @media(max-width: 1600px) {
-  .footer .italic {
+  .footer .h3 {
     font-size: 35px !important;
   }
 }
 
 @media(max-width: 768px) {
-  .footer .italic {
+  .footer .h3 {
     font-size: 22px !important;
   }
 }
