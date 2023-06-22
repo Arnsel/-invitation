@@ -8,6 +8,7 @@
   flex-direction: column;
   align-items: center;
   overflow: visible;
+  box-sizing: content-box !important;
 }
 
 @media(max-width: 500000px) {
