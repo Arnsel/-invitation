@@ -12,8 +12,25 @@
 
   @media(max-width: 768px) {
     .main #carousel {
-      width: 100lvw;
+      width: 90lvw;
     }
   }
 
 
+  @media(max-width: 500000px) {
+    .main {
+    height: 753px;
+  }
+  }
+
+  @media(max-width: 1600px) {
+    .main {
+      height: 753px;
+    }
+  }
+
+  @media(max-width: 768px) {
+    .main  {
+      height: 100lvh;
+    }
+  }

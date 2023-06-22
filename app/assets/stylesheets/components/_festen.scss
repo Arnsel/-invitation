@@ -1,7 +1,6 @@
 
 .festen {
   width: 100%;
-  height: 642px;
 
   justify-content: center;
   display: flex;
@@ -11,6 +10,25 @@
   /* #C6B9D5 */
 
   background: #C6B9D5;
+}
+
+
+@media(max-width: 500000px) {
+  .festen {
+    height: 642px;
+  }
+}
+
+@media(max-width: 1600px) {
+  .festen {
+    height: 642px;
+  }
+}
+
+@media(max-width: 768px) {
+  .festen  {
+    height: 100lvh;
+  }
 }
 
 .festen > .tekst {

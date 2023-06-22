@@ -1,7 +1,5 @@
 .footer {
   width: 100%;
-  height: 642px;
-
   /* #C6B9D5 */
 
   background: #C6B9D5;
@@ -12,6 +10,23 @@
   align-items: center;
 }
 
+@media(max-width: 500000px) {
+  .footer {
+  height: 642px;
+}
+}
+
+@media(max-width: 1600px) {
+  .footer {
+    height: 642px;
+  }
+}
+
+@media(max-width: 768px) {
+  .footer  {
+    height: 100lvh;
+  }
+}
 
 @media(max-width: 500000px) {
   .footer > h2 {

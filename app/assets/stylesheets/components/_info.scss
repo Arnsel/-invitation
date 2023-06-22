@@ -1,6 +1,5 @@
 .info {
   width: 100%;
-  height: 642px;
 
   background: $rosa;
   text-align: center;
@@ -8,6 +7,36 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  overflow: visible;
+}
+
+@media(max-width: 500000px) {
+  .info {
+  height: 642px;
+}
+}
+
+@media(max-width: 1600px) {
+  .info {
+    height: 642px;
+  }
+}
+
+@media(max-width: 768px) {
+  .info  {
+    height: 100lvh;
+  }
+}
+
+.info h2 {
+
+  font-family: 'Gunter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 60px;
+
+  margin-bottom: 2lvh;
 }
 
 .info > .tekst {
