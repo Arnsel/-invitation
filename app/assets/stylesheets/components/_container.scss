@@ -3,7 +3,7 @@
   font-family: 'Gunter';
   font-style: normal;
   font-weight: 400;
-  font-size: 40px;
+  font-size: 60px;
   line-height: 60px;
 
   margin-bottom: 2lvh;
@@ -14,7 +14,7 @@
   font-style: normal;
   font-weight: 400;
   font-size: 34px;
-  line-height: 15px;
+  line-height: 25px;
 
 
   color: #361A06 !important;
@@ -23,19 +23,19 @@
 
 @media(max-width: 500000px) {
   .container .h3 {
-    font-size: 40px !important;
+    font-size: 45px !important;
   }
 }
 
 @media(max-width: 1600px) {
   .container .h3 {
-    font-size: 30px !important;
+    font-size: 35px !important;
   }
 }
 
 @media(max-width: 768px) {
   .container .h3 {
-    font-size: 20px !important;
+    font-size: 30px !important;
   }
 }
 

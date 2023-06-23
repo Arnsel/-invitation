@@ -38,14 +38,14 @@
 @media(max-width: 1600px) {
   .footer > h2 {
     width: 45lvw;
-    margin-bottom: 4lvh;
+    margin-bottom: 2lvh;
   }
 }
 
 @media(max-width: 768px) {
   .footer > h2 {
     width: 75lvw;
-    margin-bottom: 6lvh;
+    margin-bottom: 2lvh;
   }
 }
 
@@ -76,5 +76,35 @@
 @media(max-width: 768px) {
   .footer .h3 {
     font-size: 22px !important;
+  }
+}
+
+
+
+.footer .tekst {
+  font-family: 'Plus Jakarta Sans';
+  /* or 159% */
+
+  text-align: center;
+
+  /* Style */
+}
+
+
+@media(max-width: 500000px) {
+  .footer .tekst {
+    font-size: 20px;
+  }
+}
+
+@media(max-width: 1600px) {
+  .footer .tekst {
+    font-size: 19px;
+  }
+}
+
+@media(max-width: 768px) {
+  .footer .tekst {
+    font-size: 16px;
   }
 }
