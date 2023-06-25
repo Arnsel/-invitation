@@ -31,13 +31,17 @@
 
   <div class="info">
     <h2>Kære dig</h2>
-    <div class="tekst"> Vi vil gerne invitere dig til vores kærlighedsfest d. 02.09.23, hvor vi vil danse til den lyse morgen!
+    <div class="tekst"> Vi vil gerne invitere dig til vores bryllup d. 02.09.23, hvor vi skal danse til den lyse morgen!
     Vi kan ikke vente med at dele denne særlige dag med vores yndlings mennesker, og vi håber, at du vil være med til at gøre dagen endnu mere mindeværdig.
     Vi glæder os til at se dig!
     </div>
     <div class="h3">
     Andreas & Signe
     </div>
+    <div class="drinks">
+      <%= image_tag('drinks.png') %>
+    </div>
+
   </div>
 
   <div class="container" style="max-width: 100lvw; margin: 0; padding: 0;">
@@ -53,7 +57,7 @@
         Københavns Rådhus
         </div>
         <div class="tekst">
-        I er velkomne til at være med når vi bliver viet på Københavns rådhus. Kom 30 min før. Vi vil efterfølgende skåle i deres tilhørende gårdhave.
+        I er velkomne til at være med når vi bliver viet på Københavns rådhus og skåle med os bagefter i den tilhørende gårdhave! Mød os 30 min før ude foran rådhuset.
         </div>
       </div>
 
@@ -66,7 +70,7 @@
         Bryggens Roklub
         </div>
         <div class="tekst">
-        Aftenens festligheder med reception, middag og dansegulv vil foregå i Bryggens roklub på adressen: Rundholtsvej 95, 2300 Kbh
+        Aftenens festligheder med reception, middag og dansegulv vil foregå i Bryggens roklub på adressen: Rundholtsvej 95, 2300 Kbh.
         </div>
       </div>
 
@@ -80,7 +84,7 @@
           Indslag er velkomne
         </div>
         <div class="tekst">
-          Hvis I har indslag, kan I koordinere med vores søde toastmaster Daniel på tlf 26 24 85 46
+          Hvis I har indslag, kan I koordinere med vores søde toastmaster Daniel på tlf 26 24 85 46.
         </div>
       </div>
 
@@ -91,7 +95,7 @@
           Men dress to impress!
         </div>
         <div class="tekst">
-          Ps. Medbring evt. badetøj og et håndklæde da der er mulighed for en dukkert og en tur i sauna (du må også gerne være nøgen).
+          Ps. Medbring badetøj og et håndklæde, da der er mulighed for en dukkert og en tur i sauna (du må også gerne være nøgen..).
         </div>
       </div>
 
@@ -100,6 +104,9 @@
   </div>
 
   <div class="footer">
+    <div class="spotify" style="margin-bottom: 3lvh;">
+    <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/3rdjHOb9fswpcHBQo1S5Uf?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+    </div>
 
     <div class="h3">
       02. september 2023 | Bryggens Roklub
@@ -120,6 +127,8 @@
         Besvar Invitationen
       </button>
     </div>
+
+
 
     <!-- Modal -->
     <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
@@ -156,6 +165,11 @@
                   <label for="bemærkninger" class="form-label">Bemærkninger</label>
                   <textarea class="form-control" id="bemærkninger" name="bemærkninger" rows="4"></textarea>
                 </div>
+
+                <div class="mb-3 form-check">
+                  <input type="checkbox" class="form-check-input" id="barCheckbox" name="barCheckbox">
+                  <label class="form-check-label" for="barCheckbox">Jeg hjælper gerne til i baren</label>
+               </div>
 
                 <div class="modal-footer">
                   <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Tilbage</button>
