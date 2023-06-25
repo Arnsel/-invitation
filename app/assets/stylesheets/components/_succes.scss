@@ -1,11 +1,12 @@
 .succes {
   background-color: #DA591B;
-  height: 100lvh;
+  height: 120lvh;
   width: 100lvw;
   color: #F1EAB8;
   display: flex;
   flex-direction: column;
   align-items: center;
+  box-sizing: content-box !important;
 }
 
 
