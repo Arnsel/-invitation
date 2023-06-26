@@ -10,6 +10,10 @@
   align-items: center;
 }
 
+.footer h2 {
+  font-size: 30px !important;
+}
+
 @media(max-width: 500000px) {
   .footer {
   height: 642px;
@@ -75,7 +79,7 @@
 
 @media(max-width: 768px) {
   .footer .h3 {
-    font-size: 22px !important;
+    font-size: 25px !important;
   }
 }
 
@@ -105,6 +109,6 @@
 
 @media(max-width: 768px) {
   .footer .tekst {
-    font-size: 16px;
+    font-size: 19px;
   }
 }
